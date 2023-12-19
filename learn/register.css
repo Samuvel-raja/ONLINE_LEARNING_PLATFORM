@@ -1,0 +1,121 @@
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}.main-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(regback.jpg);
+    background-size: cover;
+}
+
+h2{
+    margin-bottom: 20px;
+
+  color: black;
+opacity: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-weight: 700;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+  
+}
+ul
+{
+    display: flex;
+    
+}
+nav img{
+    margin-right: 10px;
+    margin-left: 10px;
+border-radius: 50px;
+    margin-top: 5px;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: medium;
+  
+}
+nav li:hover
+{
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+}
+label
+{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+input
+{
+    width: 400px;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   border-radius: 90px;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px grey;
+    text-align: center;
+    font-weight: 900;
+}
+.btn
+{
+    margin-top: 20px;
+   padding: 10px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    color: aqua;
+    margin-left: 120px;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: 800;
+}
+.btn:hover
+{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form
+{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 5px 5px 5px black,0px 5px 5px 5px grey;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+opacity: 80%;
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.danger
+{
+    background-color: red;
+    opacity: 70%;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+}

@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: rgba(0, 89, 255, 0.651);
+}
+
+h2 {
+    color: rgb(206, 6, 39);
+}
+
+.sidebar {
+    position: fixed;
+    top: 106px;
+    width: 180px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+    text-align: center;
+    overflow-y: scroll;
+    height: 550px;
+    float: left;
+    top: 16%;
+}
+
+.htmldoc_try {
+    margin-left: 30px;
+}
+
+.mainpart {
+    margin-left: 160px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.mainpart .intro h1 {
+    margin: 20px;
+}
+
+.mainpart .intro ul {
+    list-style: inside;
+    padding-left: 20px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.elements h1,
+li,
+ul,
+h2 {
+    padding: 2px;
+    margin: 2px;
+}
+
+.elements {
+    width: 100%;
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    top:0%;
+    background-color: white;
+    width: 100%;
+}
+ul
+{
+    display: flex;
+    
+}
+nav img{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+  
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover
+{
+    background-color: #04AA6D;
+}
+
+.nav .footer_foot .links a
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-bottom: none;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+.nav .footer_foot {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: #04AA6D;
+}
+
+.nav .footer_foot img {
+    height: 30px;
+   
+    padding-left: 15px;
+    padding-right: 3px;
+}
+
+.nav .footer_foot .links {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+
+.nav .footer_foot .links a {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-bottom: none;
+    text-decoration: none;
+    margin-right: 4px;
+}
+nav{
+    display: flex;
+    
+}
+ul
+{
+    display: flex;
+    
+}
+nav img{
+    margin-right: 10px;
+    margin-left: 10px;
+border-radius: 50px;
+margin-top: 3px;
+  
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: medium;
+  
+}
+nav li:hover
+{
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+}
+.footer {
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 60px;
+    margin-top: 8px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+.footer .menu {
+    display: flex;
+    flex-direction: row;
+    height: 46px;
+    width: 50px;
+
+}
+
+.footer .menu .img2 {
+    margin-left: 11px;
+    margin-right: 3px;
+}
+
+.footer .menu .cont {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    padding-left: 18px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: none;
+
+}
+
+.mainpart ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.htmldoc_try {
+    cursor: pointer;
+}
+
+.footer .menu .cont:hover {
+    background-color: black;
+    color: aqua;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.darkmode {
+    position: absolute;
+    left: 95%;
+}
+
+.search {
+    position: absolute;
+    left: 98%;
+}
+
+.mainpart {
+
+    background-color: white;
+    margin-top: 2%;
+}
+
+.sidebar a {
+    text-decoration: none;
+    width: 180px;
+    padding: 10px;
+    background-color: black;
+    color: aqua;
+
+}
+
+.sidebar a:hover {
+    transform: scale(1.01);
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 60px;
+}
+
+.intro .htmldocument {
+    padding-left: 30px;
+}
+
+.mainpart h1,
+h2 {
+    padding-left: 8px;
+}
+
+.mainpart .htmldocument {
+    width: 500px;
+    height: 300px;
+}
+
+
+figcaption button
+{
+    width:200px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 900;
+    background-color:  black;
+    color: yellow;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px grey;
+background-color: black;
+margin-top: 4px;
+}

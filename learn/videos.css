@@ -1,0 +1,42 @@
+*{
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+}
+ul
+{
+    display: flex;
+    
+}
+nav img{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+nav li:hover
+{
+    background-color: #04AA6D;
+}
+
+.card
+{
+    border: 2px solid black;
+    align-items: center;
+    margin-left: 10px;
+border-radius: 20px;
+width: 200px;
+
+}
+
+iframe
+{
+    margin-top: 20px;
+}
